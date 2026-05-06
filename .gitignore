@@ -1,0 +1,27 @@
+# Data files - never commit raw data
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.xlsx
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+config.py
+secrets.py
